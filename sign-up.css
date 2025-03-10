@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("interior-2.jpg");
+  background-repeat: no-repeat;
+  background-position:left;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: "poppins", sans-serif;
+}
+.form {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  top: 3em;
+  left: 38em;
+  border-radius: 1.2em;
+  box-shadow: 5px 5px 4px 2px black;
+  opacity: 0.7;
+}
+.sign {
+  padding: 4em;
+}
+#sig {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.login {
+  display: flex;
+  gap: 10px;
+}
+.sign-up-btn {
+  text-decoration: none;
+  color: rgb(177, 123, 227);
+  font-size: 1.2rem;
+}
+.sign-up-btn:hover {
+  color: blueviolet;
+  transition: 0.5s;
+}
